@@ -1,11 +1,19 @@
 {
-  "name": "node-farm-dynamically-change-HTML",
-  "description": "",
+  "name": "farm-dynamically-change-html",
   "version": "1.0.0",
+  "description": "Node web application built only with core node modules",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Rizul",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhardwajrizul/node-farm-dynamically-change-HTML.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhardwajrizul/node-farm-dynamically-change-HTML/issues"
+  },
+  "homepage": "https://github.com/bhardwajrizul/node-farm-dynamically-change-HTML#readme"
 }
