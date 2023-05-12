@@ -1,6 +1,9 @@
+// CORE MODULES
 const fs =require('fs');
 const http =require('http');
 const url =require('url');
+
+// CUSTOM MODULES
 const replaceTemplate = require(`${__dirname}/modules/replaceTemplate.js`)
 
 
@@ -34,7 +37,7 @@ const server = http.createServer((req, res) => {
     }
 });
 
-server.listen(8000, '127.0.0.1', () => {
+server.listen(process.env.PORT || 8000, '0.0.0.0', () => {
     console.log("Server Started!");
 });
 
