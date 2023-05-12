@@ -1,2 +1,2 @@
 # node-farm
-Node web application built only with core node modules
+Web application built only with core node modules HTTP &  File System (fs) module
